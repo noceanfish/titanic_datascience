@@ -22,5 +22,6 @@ setup(name='Distutils',
 	  author='JW',
 	  author_email='pipi$!@163.com',
 	  license='MIT',
-	  packages=['Titanic']
+	  packages=['Titanic'],
+	  install_requires=['pypandoc>=1.4'],
 	)
